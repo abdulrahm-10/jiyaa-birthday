@@ -1022,4 +1022,23 @@ body {
     cursor: pointer;
     color: white;
     z-index: 10000000000000000;
+    /* ===== Responsive Wish Text ===== */
+
+.wish-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: clamp(14px, 2.3vw, 19px);
+    line-height: 1.8;
+    padding: 20px;
+    text-align: left;
+    color: white;
+    overflow-y: auto;
+    max-height: 100%;
+}
+
+/* Make card scroll properly */
+.card2-content{
+    overflow-y: auto;
+    scrollbar-width: thin;
+}
+
 }
